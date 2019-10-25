@@ -8,7 +8,7 @@ if (workbox) {
 
 var cacheFiles = [
     {
-        url: '/Index1.html',
+        url: '/pwa.demo/Index1.html',
         revision: 'v1' // 加revision，版本改了以後，sw.js 在 application 上會更新
     }
 ];
