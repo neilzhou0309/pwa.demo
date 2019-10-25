@@ -1,4 +1,4 @@
-importScripts('/workbox-sw.min.js');
+importScripts('/pwa.demo/workbox-sw.min.js');
 
 if (workbox) {
     console.log("Yay! Workbox is loaded 🎉");
