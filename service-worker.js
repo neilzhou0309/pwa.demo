@@ -1,4 +1,4 @@
-importScripts('/pwa.demo/workbox-sw.min.js');
+importScripts('https://cdn.jsdelivr.net/npm/workbox-sw@4.3.1/build/workbox-sw.min.js');
 
 if (workbox) {
     console.log("Yay! Workbox is loaded 🎉");
