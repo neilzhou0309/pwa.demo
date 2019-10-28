@@ -1,9 +1,9 @@
 importScripts('https://cdn.jsdelivr.net/npm/workbox-sw@4.3.1/build/workbox-sw.min.js');
 
 if (workbox) {
-    console.log("Yay! Workbox is loaded 🎉");
+    console.log("Yay! Workbox is loaded");
 } else {
-    console.log("Boo! Workbox didn't load 😬");
+    console.log("Boo! Workbox didn't load");
 }
 
 var cacheFiles = [
