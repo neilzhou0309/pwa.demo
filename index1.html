@@ -85,7 +85,6 @@
         var btnInstall = $("#btnInstall");
         $(function () {
             window.addEventListener('beforeinstallprompt', function (e) {
-                alert('beforeinstallprompt');
                 // 存储事件
                 dfdPrompt = e;
                 // 显示按钮
@@ -108,10 +107,9 @@
                     }
                 });
             });
-              if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('service-worker.js').then(function () {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('service-worker.js').then(function () {
                 console.log('Service Worker 注册成功');
-                alert('Service Worker 注册成功');
             });
         }
         });
